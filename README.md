@@ -12,7 +12,7 @@ It also supports command/control click (to open links in a new tab).
 * **avoid**: String or jQuery Element that exists inside the container. Clicking on this will not result in bigLink.js being implemented. Default 'a'
 
 ##Example:
-```
+```js
 $(".my-selector").bigLink({
     avoid: "a.my-other-link"
 });
